@@ -1,0 +1,43 @@
+#nosotros {
+  color: #ff4dd8;
+  font-family: 'comic Sans MS', sans-serif;
+  background: rgb(255, 213, 234);
+  border: 5px dashed rgb(255, 101, 204);
+  border-radius: 25px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#info {
+  font-family: 'comic Sans MS', sans-serif;
+  font-size: 20px;
+  color: #ff4dd8;
+  background: rgb(160, 233, 255);
+  border: 4px dashed rgb(135, 152, 226);
+  border-radius: 25px;
+}
+
+#roles {
+  background: rgb(250, 207, 158);
+  border: 4px dashed rgb(121, 98, 67);
+  border-radius: 25px;
+  color: #634c37;
+}
+
+body {
+  background-color: rgb(255, 157, 214);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #ff4dd8;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+}
