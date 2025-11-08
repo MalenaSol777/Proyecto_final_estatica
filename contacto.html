@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+    </head>
+<body>
+    <main>
+        <h2>💖Consultas💖</h2>
+        <p>Los campos marcados con "🎀" son obligatorios.</p>
+        
+        <form id="formulario-contacto" novalidate> 
+            
+            <div>
+                <label for="nombre">Nombre🎀</label><br>
+                <input type="text" id="nombre" name="nombre" aria-required="true">
+                <div class="error-msg" id="error-nombre"></div>
+            </div>
+
+            <div>
+                <label for="email">Correo Electrónico🎀</label><br>
+                <input type="email" id="email" name="email" aria-required="true">
+                <div class="error-msg" id="error-email"></div>
+            </div>
+
+            <div>
+                <label for="asunto">Asunto</label><br>
+                <input type="text" id="asunto" name="asunto">
+                <div class="error-msg" id="error-asunto"></div>
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje (Máx. 500 caracteres)🎀</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" maxlength="500" aria-required="true"></textarea>
+                <div class="error-msg" id="error-mensaje"></div>
+            </div>
+
+            <hr>
+            <h3>💖Validación Específica💖</h3>
+            
+            <div>
+                <label for="prioridad-consulta">Prioridad de la Consulta (1 a 10)🎀</label><br>
+                <input type="number" id="prioridad-consulta" name="prioridad-consulta" aria-required="true">
+                <div class="error-msg" id="error-prioridad-consulta"></div>
+            </div>
+        <br/>
+            <button type="submit">Enviar Datos</button>
+        </form>
+    </main>
+
+    <script src="contacto.js"></script>
+</body>
+</html>
