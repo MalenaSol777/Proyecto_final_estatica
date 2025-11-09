@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tareas Mensuales</title>
 </head>
 
 <body>
 
-<h1>Tareas mensuales</h1>
+    <h1>🎀Registro de Tareas Mensuales🎀</h1>
+    <form id="formulario-mensual">
 
-<form action="#">
+        <label for="mes">🌺Mes de la Tarea:</label>  
+        <select id="mes" name="mes" required>
+            <option value="">Seleccione el Mes</option>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+        </select>
+        <br/><br/>
 
-<label for="mes">Mes:</label>  
+        <label for="t1">🌺Nombre de la Tarea (Descripción uwu):</label>
+        <input type="text" name="t1" id="t1" required placeholder="Ej: Pagar la factura de luz"/><br/><br/>
+        
+        <label for="cant">🌺Cantidad / Metas Parciales:</label>
+        <input type="number" id="cant" name="cant" min="1" value="1" /><br/><br/>
 
-<select id="mes" name="mes">
-    <option value="">Ingrese mes de tarea a realizar</option>
-    <option value="Enero">Enero</option>
-    <option value="Febrero">Febrero</option>
-    <option value="Marzo">Marzo</option>
-    <option value="Abril">Abril</option>
-    <option value="Mayo">Mayo</option>
-    <option value="Junio">Junio</option>
-    <option value="Julio">Julio</option>
-    <option value="Agosto">Agosto</option>
-    <option value="Septiembre">Septiembre</option>
-    <option value="Octubre">Octubre</option>
-    <option value="Noviembre">Noviembre</option>
-    <option value="Diciembre">Diciembre</option>
-</select>
+        <input type="submit" name="datos" value="Guardar Nueva Tarea Mensual"/>
+        <input type="reset" name="borrar" value="Borrar Campos"/>
 
- <br/><br/>
-<label for="cant">Ingrese cantidad de tareas a realizar:</label>
-<input type="number" id="cant" name="cant"/><br/><br/>
+    </form>
 
-<label for="t1">Asigne nombre de tarea:</label>
-<input type="text" name="t1" id="t1"/><br/><br/>
+    <hr>
 
-<label for="ta">Tarea completada:</label>
-<input type="checkbox" name="ta" id="ta" checked="checked" /><br/><br/>
-
-<input type="submit" name="datos" value="guardar datos"/>
-<input type="reset" name="borrar" value="borrar datos"/>
-
-</form>
-
-<script src="mensual.js"></script>
-
-<nav>
-    <ul>
-<li><a href="diario.html">Diario</a></li>
-<li><a href="anual.html">Mensual</a></li>
+    <h2>💖Mis Tareas Mensuales Pendientes / Completadas💖</h2>
+    <ul id="lista-tareas-mensuales" style="list-style: none; padding: 0;">
+        <li style="color: #666;">Aún no has registrado tareas unu.</li>
     </ul>
-</nav>
+
+    <script src="mensual.js"></script>
+
+    <nav>
+        <ul>
+            <li><a href="diario.html">Diario</a></li>
+            <li><a href="anual.html">Anual</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
