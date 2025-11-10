@@ -1,88 +1,122 @@
 body {
-    background-color: rgb(21, 0, 34);
+    background-color: #FFF0F5;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #A00060;
+    text-align: center;
 }
 
 hr {
     border: none;
-    height: 1px;
-    width: 70%;
-    background-color: #704c8d;
-    margin-left: 0;
+    height: 3px;
+    width: 90%;
+    background-color: #FFC0CB;
+    margin: 15px auto;
+    border-radius: 2px;
 }
 
 h1 {
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-decoration: underline;
-    color:#bd77ff;
-    text-shadow: 2px 2px 20px #c780a9;
+    color: #C71585;
+    text-shadow: 2px 2px 5px #FFDDE2;
+    margin-top: 20px;
+    text-align: center;
 }
 
 h2 {
-    text-transform:uppercase;
-    color:#bd77ff;
+    text-transform: uppercase;
+    color: #A00060;
     text-decoration: underline;
-    text-shadow: 2px 2px 20px #c780a9;
+    text-shadow: 2px 2px 5px #FFDDE2;
+    text-align: center;
 }
 
 form {
-    color:#b398c9;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #A00060;
+    font-family: 'Georgia', serif;
+    padding: 10px;
+    display: inline-block;
 }
 
 input[type="submit"],
 input[type="reset"],
 input[type="text"],
-input[type="number"]{
-    background-color: #ce92ff;
-    border-radius: 8px;
-    border: 2px solid #9b47b4;
+input[type="number"] {
+    background-color: #FFDDE2;
+    border-radius: 10px;
+    border: 3px solid #FFC0CB;
+    color: #C71585;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #FFC0CB;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.4);
 }
 
 select {
-    background-color: #c6acdb;
-    border-radius: 8px;
-    border: 2px solid #9b47b4;
+    background-color: #F8BBD0;
+    border-radius: 10px;
+    border: 3px solid #FFC0CB;
+    color: #C71585;
+    padding: 8px;
 }
 
-#tareitas{
-    border: 2px solid rgb(153, 85, 180);
-    border-radius: 15px;
-    background-color: rgb(76, 38, 102);
-    padding: 15px;
-    width: 800px;
+#tareitas {
+    border: 5px dashed #FF70A6;
+    border-radius: 20px;
+    background-color:#fff6f9;
+    padding: 25px;
+    width: 700px;
+    box-shadow: 0 8px 20px rgba(255, 112, 166, 0.3);
+    margin: 20px auto;
+    text-align: left;
 }
 
 #lista-tareas-mensuales {
-    background-color:rgb(161, 186, 224);
-    border-radius: 15px;
-    border: 2px solid rgb(95, 51, 112);
+    background-color: #FFDDE2;
+    border-radius: 20px;
+    border: 4px solid #FF70A6;
     font-style: italic;
-    width:400px;
-    text-align:left;
+    width: 350px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.4);
 }
 
 .completada {
-    color: #513866 !important;
-    background-color: rgb(187, 126, 202) !important;
+    color: #FFFFFF !important;
+    background-color: #FF70A6 !important;
     text-decoration: line-through !important;
     border-radius: 15px;
     font-style: normal;
     font-weight: bold;
-    text-align:left;
+    text-align: left;
+    padding: 5px;
+    opacity: 0.7;
 }
 
 li {
-    list-style: none;
+    list-style: "♡ ";
     font-size: 20px;
+    margin: 8px 0;
+    color: #A00060;
+    text-align: left;
 }
 
 a {
- color: rgb(95, 51, 112);;
+    color: #C71585;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #otros {
-    background-color: #b398c9;
-    border: 2px solid rgb(95, 51, 112);
-    border-radius: 10px;
-    width: 100px;
+    background-color: #FFC0CB;
+    border: 3px double #C71585;
+    border-radius: 15px;
+    width: 120px;
+    padding: 10px;
 }

@@ -1,69 +1,83 @@
 #nosotros {
-  color: #ff4dd8;
-  font-family: 'comic Sans MS', sans-serif;
-  background: rgb(255, 213, 234);
-  border: 5px solid rgb(255, 101, 204);
-  border-radius: 25px;
-  text-align: center;
-  font-size: 20px;
-  width: 1325px;
+    color: #C71585;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #FFF0F5;
+    border: 5px dashed #FF69B4;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 22px;
+    width: 1325px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
 }
 
 #info {
-  font-family: 'comic Sans MS', sans-serif;
-  font-size: 18px;
-  color: #ff7be2;
-  background: rgb(169, 102, 185);
-  border: 4px solid rgb(121, 0, 158);
-  border-radius: 25px;
-  width: 1120px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
+    color: #8A2BE2;
+    background: #E0BBE4;
+    border: 4px solid #A052A0;
+    border-radius: 30px;
+    width: 1120px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(160, 82, 160, 0.4);
 }
 
 #roles {
-  background: rgb(255, 213, 234);
-  border: 4px solid rgb(255, 101, 204);
-  border-radius: 25px;
-  color: #ff4dd8;
-  width: 900px;
-  text-align: center;
+    background: #FFDDE2;
+    border: 4px dotted #FFC0CB;
+    border-radius: 30px;
+    color: #C71585;
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(255, 192, 203, 0.5);
 }
 
 #sitios {
-  font-family: 'comic Sans MS', sans-serif;
-  font-size: 30px;
-  border: 4px solid rgb(255, 101, 204);
-  border-radius: 25px;
-  background: rgb(255, 213, 234);
-  width: 200px;
-  height: 540px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 32px;
+    border: 4px double #FF69B4;
+    border-radius: 30px;
+    background: #FFF0F5;
+    color: #C71585;
+    width: 250px;
+    height: 540px;
+    padding: 15px;
+    box-shadow: 0 6px 18px rgba(255, 105, 180, 0.4);
 }
 
 #general {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
 }
 
 body {
-  background-color: rgb(255, 157, 214);
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEEAEB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-  margin-bottom: 15px;
-  text-align: center;
-  text-decoration: underline;
-
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: underline;
+    color: #C71585;
+    text-shadow: 1px 1px #FFC0CB;
+    font-size: 40px;
 }
 
 h2 {
-  color: #ff7be2;
-  margin-bottom: 10px;
-  font-size: 30px;
-  text-decoration: underline;
+    color: #8A2BE2;
+    margin-bottom: 15px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-shadow: 1px 1px #E0BBE4;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
+    padding: 0;
 }
