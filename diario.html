@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo_diario.css">
     <title>Tareas Diarias</title>
 </head>
 
 <body>
 
     <h1>🎀Registro de Tareas Diarias🎀</h1>
+
+    <hr />
+
     <form id="formulario-diario">
 
-        <label for="dia">🌺Día de la Tarea:</label>  
+        <label for="dia">🌺Día de la Tarea:</label>
         <select id="dia" name="dia" required>
             <option value="">Seleccione el Día</option>
             <option value="Lunes">Lunes</option>
@@ -23,33 +27,38 @@
             <option value="Sábado">Sábado</option>
             <option value="Domingo">Domingo</option>
         </select>
-        <br/><br/>
+        <br /><br />
 
         <label for="t1">🌺Nombre de la Tarea (Objetivo del Día uwu):</label>
-        <input type="text" name="t1" id="t1" required placeholder="Ej: mirar el partido de Boca"/><br/><br/>
-        
-        <label for="cant">🌺Tiempo Estimado (en Horas):</label>
-        <input type="number" id="cant" name="cant" min="0.5" step="0.5" value="1" /><br/><br/>
+        <input type="text" name="t1" id="t1" required placeholder="Ej: mirar el partido de Boca" /><br /><br />
 
-        <input type="submit" name="datos" value="Guardar Nueva Tarea Diaria"/>
-        <input type="reset" name="borrar" value="Borrar Campos"/>
+        <label for="cant">🌺Tiempo Estimado (en Horas):</label>
+        <input type="number" id="cant" name="cant" min="0.5" step="0.5" value="1" /><br /><br />
+
+        <input type="submit" name="datos" value="Guardar Nueva Tarea Diaria" />
+        <input type="reset" name="borrar" value="Borrar Campos" />
 
     </form>
 
     <hr>
 
-    <h2>💖Mis Tareas Diarias Pendientes / Completadas💖</h2>
-    <ul id="lista-tareas-diarias" style="list-style: none; padding: 0;">
-        <li style="color: #666;">Pone tareas wachin</li>
-    </ul>
+    <div id="tareitas">
 
-    <script src="diario.js"></script>
+        <h2>💖Mis Tareas Diarias Pendientes / Completadas💖</h2>
+        <ul id="lista-tareas-diarias" style="list-style: none; padding: 0;">
+            <li style="color: #666;">Pone tareas wachin</li>
+        </ul>
+
+        <script src="diario.js"></script>
+
+    </div>
 
     <nav>
-        <ul>
+        <ul id="otros">
             <li><a href="mensual.html">Mensual</a></li>
             <li><a href="anual.html">Anual</a></li>
         </ul>
     </nav>
 </body>
+
 </html>

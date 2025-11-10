@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo_mensual.css">
     <title>Tareas Mensuales</title>
 </head>
 
 <body>
 
     <h1>🎀Registro de Tareas Mensuales🎀</h1>
+
+    <hr />
     <form id="formulario-mensual">
 
-        <label for="mes">🌺Mes de la Tarea:</label>  
+        <label for="mes">🌺Mes de la Tarea:</label>
         <select id="mes" name="mes" required>
             <option value="">Seleccione el Mes</option>
             <option value="Enero">Enero</option>
@@ -28,33 +31,38 @@
             <option value="Noviembre">Noviembre</option>
             <option value="Diciembre">Diciembre</option>
         </select>
-        <br/><br/>
+        <br /><br />
 
         <label for="t1">🌺Nombre de la Tarea (Descripción uwu):</label>
-        <input type="text" name="t1" id="t1" required placeholder="Ej: Pagar la factura de luz"/><br/><br/>
-        
-        <label for="cant">🌺Cantidad / Metas Parciales:</label>
-        <input type="number" id="cant" name="cant" min="1" value="1" /><br/><br/>
+        <input type="text" name="t1" id="t1" required placeholder="Ej: Pagar la factura de luz" /><br /><br />
 
-        <input type="submit" name="datos" value="Guardar Nueva Tarea Mensual"/>
-        <input type="reset" name="borrar" value="Borrar Campos"/>
+        <label for="cant">🌺Cantidad / Metas Parciales:</label>
+        <input type="number" id="cant" name="cant" min="1" value="1" /><br /><br />
+
+        <input type="submit" name="datos" value="Guardar Nueva Tarea Mensual" />
+        <input type="reset" name="borrar" value="Borrar Campos" />
 
     </form>
 
     <hr>
 
-    <h2>💖Mis Tareas Mensuales Pendientes / Completadas💖</h2>
-    <ul id="lista-tareas-mensuales" style="list-style: none; padding: 0;">
-        <li style="color: #666;">Aún no has registrado tareas unu.</li>
-    </ul>
+    <div id="tareitas">
 
-    <script src="mensual.js"></script>
+        <h2>💖Mis Tareas Mensuales Pendientes / Completadas💖</h2>
+        <ul id="lista-tareas-mensuales" style="list-style: none; padding: 0;">
+            <li style="color: #666;">Aún no has registrado tareas unu.</li>
+        </ul>
+
+        <script src="mensual.js"></script>
+
+    </div>
 
     <nav>
-        <ul>
+        <ul id="otros">
             <li><a href="diario.html">Diario</a></li>
             <li><a href="anual.html">Anual</a></li>
         </ul>
     </nav>
 </body>
+
 </html>

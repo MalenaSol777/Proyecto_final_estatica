@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(26, 6, 24);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 70%;
+    background-color: #704c8d;
+    margin-left: 0;
+}
+
+h1 {
+    text-transform:uppercase;
+    text-decoration: underline;
+    color:#fc9bff;
+    text-shadow: 2px 2px 20px #c780a9;
+}
+
+h2 {
+    text-transform:uppercase;
+    color:#fc9bff;
+    text-decoration: underline;
+    text-shadow: 2px 2px 20px #c780a9;
+}
+
+form {
+    color:#b398c9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="text"],
+input[type="number"]{
+    background-color: #ce92ff;
+    border-radius: 8px;
+    border: 2px solid #9b47b4;
+}
+
+select {
+    background-color: #c6acdb;
+    border-radius: 8px;
+    border: 2px solid #9b47b4;
+}
+
+#tareitas{
+    border: 2px solid rgb(255, 156, 222);
+    border-radius: 15px;
+    background-color: rgb(112, 68, 110);
+    padding: 15px;
+    width: 800px;
+}
+
+#lista-tareas-anuales {
+    background-color:rgb(161, 186, 224);
+    border-radius: 15px;
+    border: 2px solid rgb(95, 51, 112);
+    font-style: italic;
+    width:400px;
+    text-align:left;
+}
+
+.completada {
+    color: #513866 !important;
+    background-color: rgb(187, 126, 202) !important;
+    text-decoration: line-through !important;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: bold;
+    text-align:left;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(110, 51, 112);
+}
+
+#otros {
+    background-color: #c598c9;
+    border: 2px solid rgb(110, 51, 112);
+    border-radius: 10px;
+    width: 100px;
+}

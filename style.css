@@ -1,0 +1,69 @@
+#nosotros {
+  color: #ff4dd8;
+  font-family: 'comic Sans MS', sans-serif;
+  background: rgb(255, 213, 234);
+  border: 5px solid rgb(255, 101, 204);
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+  width: 1325px;
+}
+
+#info {
+  font-family: 'comic Sans MS', sans-serif;
+  font-size: 18px;
+  color: #ff7be2;
+  background: rgb(169, 102, 185);
+  border: 4px solid rgb(121, 0, 158);
+  border-radius: 25px;
+  width: 1120px;
+}
+
+#roles {
+  background: rgb(255, 213, 234);
+  border: 4px solid rgb(255, 101, 204);
+  border-radius: 25px;
+  color: #ff4dd8;
+  width: 900px;
+  text-align: center;
+}
+
+#sitios {
+  font-family: 'comic Sans MS', sans-serif;
+  font-size: 30px;
+  border: 4px solid rgb(255, 101, 204);
+  border-radius: 25px;
+  background: rgb(255, 213, 234);
+  width: 200px;
+  height: 540px;
+}
+
+#general {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+body {
+  background-color: rgb(255, 157, 214);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+h2 {
+  color: #ff7be2;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}

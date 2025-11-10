@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(26, 18, 24);
+}
+
+h2 {
+    color: rgb(233, 198, 224);
+    font-weight: bold;
+    font-size:40px;
+    text-transform:uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 20px #9c7fb4;
+    text-align:center;
+}
+
+h3 {
+    color: rgb(233, 198, 224);
+    font-size: 25px;
+    text-shadow: 2px 2px 20px #9c7fb4;
+    text-transform:uppercase;
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 50%; 
+    background-color: #704c8d;
+}
+
+div {
+    color: white;
+    padding: 5px;
+    font-style: italic;
+}
+
+p {
+    color: white;
+    text-decoration: underline;
+    text-align:center;
+    text-transform:uppercase;
+    text-shadow: 5px 5px 0px #000000;
+}
+
+form {
+    text-align:center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"]{
+    background-color: rgb(248, 152, 197);
+    border-radius: 8px;
+    border: 3px solid rgb(122, 52, 111);
+}
+
+button {
+    background-color: rgb(248, 152, 197);
+    border-radius: 8px;
+    border: 3px solid rgb(122, 52, 111);
+}
+
+textarea {
+    background-color: rgb(248, 152, 197);
+    border-radius: 8px;
+    border: 3px solid rgb(122, 52, 111);
+}
+
+#prioridad-consulta {
+        background-color: rgb(248, 152, 197);
+    border-radius: 8px;
+    border: 3px solid rgb(122, 52, 111)
+}
